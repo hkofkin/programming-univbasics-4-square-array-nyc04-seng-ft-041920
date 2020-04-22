@@ -2,6 +2,6 @@ def square_array(numbers)
   # your code here
   numbers.length.times  {
     new_array = []
-    |index| numbers[index] ** 2
+    |index| new_array.push(numbers[index] ** 2)
   }
 end
